@@ -44,6 +44,21 @@ export default function Home(){
     //     console.info(event);
     // });
 
+    // If you want to show the modal you can use the following:
+
+    /**
+     
+    Method 1: With jQuery
+
+        $(modal.container).modal('show');
+
+    Method 2: Without jQuery
+
+        var myModal = new bootstrap.Modal('#exampleModal');
+        myModal.show();
+
+     */
+
     console.info({
         Layout,
         li,

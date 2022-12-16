@@ -1,6 +1,7 @@
 import './node_modules/jquery/dist/jquery.js';
 import './node_modules/bootstrap/dist/js/bootstrap.js';
 import Render from './Actions/Render.js';
+import Modal from './Components/Modal.js';
 
 [ // CSS;
     './node_modules/bootstrap/dist/css/bootstrap.css',
@@ -15,7 +16,7 @@ export let Layout = {};
 export let Web = {};
 export let User = {};
 export let Route = {};
-
+export let modal = {};
 
 async function init(){
 
@@ -127,7 +128,14 @@ async function init(){
         role: 'User',
     }
 
+    modal = Modal();
     Render();
+
+    Object.assign(window, {
+        modal,
+        User,
+        Layout,
+    })
 
 }
 
