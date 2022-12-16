@@ -44,8 +44,8 @@ export default function Home(){
     //     console.info(event);
     // });
 
-    // If you want to show the modal you can use the following:
 
+    // If you want to show the modal you can use the following:
     /**
      
     Method 1: With jQuery
