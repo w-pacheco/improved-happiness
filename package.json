@@ -1,0 +1,28 @@
+{
+  "name": "improved-happiness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server --open=app.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-pacheco/improved-happiness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w-pacheco/improved-happiness/issues"
+  },
+  "homepage": "https://github.com/w-pacheco/improved-happiness#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jqcloud-npm": "^4.0.0",
+    "jquery": "^3.6.1",
+    "jszip": "^3.10.1",
+    "live-server": "^1.2.2",
+    "pace-js": "^1.2.4"
+  }
+}
