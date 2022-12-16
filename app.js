@@ -139,4 +139,5 @@ async function init(){
 
 }
 
+// This will ONLY run after the page has completely loaded;
 window.onload = init;
